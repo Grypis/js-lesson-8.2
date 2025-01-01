@@ -224,7 +224,53 @@ console.log(myBook); */
   pages: 300,
   price: 50,
   year: 2025,
-};
+  address: {
+    city: "Dnipro",
+    country: "Ukraine",
+    x: 1000,
+    y: 2000,
+  },
+}; */
 
-const { id, pages, year, price, ...newBook } = book;
+/* const { id, pages, year, price, ...newBook } = book;
 console.log(newBook); */
+
+/* const {
+  address: { city, country, ...location },
+} = book; */
+
+//! ==========================================================
+//! ==========================================================
+//! ==========================================================
+//! ==========================================================
+/* const arr = [1, 2, 3, 4, 5];
+
+const [x1, x2, x3] = arr; */
+
+//! ==========================================================
+// const rgb = [123, 12, 52];
+
+// const [red, green, blue] = rgb;
+// const [red, , blue] = rgb;
+// const [, , blue] = rgb;
+
+/* const [red, green, blue, alpha = 1] = rgb;
+console.log(red, green, blue, alpha); */
+
+//! ==========================================================
+/* const arr = ["hello", 1, 2, 3, 4, 5, 4, 2];
+const [str, ...numbers] = arr;
+console.log(str);
+console.log(numbers); */
+
+//! ==========================================================
+/* const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+const [[x1, x2, x3], [x4, x5, x6], [x7, x8, x9]] = arr;
+console.log(x4); */
+
+//! ==========================================================
