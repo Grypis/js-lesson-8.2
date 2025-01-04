@@ -201,12 +201,33 @@ const cars = [
   },
 ];
 
+//! ===================================================
 //? Без деструктуризації
-for (const car of cars) {
+/* for (const car of cars) {
   console.log(car);
-}
+} */
 
 //? З деструктуризацією
-for (const { brand, model } of cars) {
+/* for (const { brand, model } of cars) {
   console.log(brand, model);
+} */
+
+//! ===================================================
+const car = {
+  brand: "Land Rover",
+  model: "Range Rover Evoque",
+  year: 2022,
+  color: "Gray",
+  price: 60000,
+  amount: 1,
+  isSportCar: false,
+  type: "SUV",
+};
+
+/* const arr = Object.values(car);
+console.log(arr); */
+
+const arr = Object.entries(car);
+
+for (const enrty of arr) {
 }
