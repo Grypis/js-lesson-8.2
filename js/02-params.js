@@ -24,3 +24,27 @@ getUserName(user); */
 getUserName(user); */
 
 //! ==========================================================
+/* function updateBook({ id, ...book }) {
+  console.log(id, book);
+}
+
+const book = {
+  id: 1233,
+  title: "asddas",
+  author: "123",
+  desc: "wqe",
+};
+
+updateBook(book); */
+
+//! ==========================================================
+/* function colorTemplate({ name, title, author }) {
+  return `
+  <li>
+  ${name}
+  ${title}
+  ${author}
+  </li>
+  `;
+}
+ */
