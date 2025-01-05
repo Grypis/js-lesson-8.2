@@ -227,7 +227,34 @@ const car = {
 /* const arr = Object.values(car);
 console.log(arr); */
 
-const arr = Object.entries(car);
+/* const arr = Object.entries(car);
 
-for (const enrty of arr) {
+for (const [key, value] of arr) {
+  console.log(key, value);
+} */
+
+/* const colors = [
+  [123, 23, 12],
+  [31, 21, 42],
+  [13, 3, 2],
+  [2, 12, 12],
+  [34, 23, 12],
+  [45, 23, 12],
+  [12, 23, 65],
+  [45, 56, 12],
+  [123, 23, 12],
+];
+
+for (const [red, green, blue] of colors) {
+  console.log(`Red:${red}; green:${green}; blue:${blue};`);
 }
+ */
+
+//! ===================================================
+/* cars.map(({ brand, model }) => {
+  return `
+  <li>${brand} ${model}</li>
+  `;
+});
+
+cars.filter(({ isSportCar }) => isSportCar); */
